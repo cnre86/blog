@@ -1,0 +1,50 @@
+header {
+
+	margin-bottom: 1.5em;
+	background-color: #eaeaea;
+	padding: 2em 0;
+	text-align:center;
+	h1{
+
+		font-weigth: bold;
+
+	}
+}
+#trunk{
+
+	@extend .row;
+
+	main{
+		@extend .col-lg-9;
+		min-height: 30em;
+
+		h1, h2{
+			margin-bottom: .5em;
+			font-weight: bold;
+			color: #aaa;
+			text-align:center;
+		}
+		margin-bottom: 1em;
+	}
+	aside{
+
+		@extend .col-lg-3;
+	}
+	}
+
+	.form-actions{
+	border-top: 1px solid #ccc;
+	padding: 1em 1em 2em;
+	margin-bottom: 1em;
+	background-color: #eaeaea;
+}
+
+[class*='outline']{
+
+	background-color: white;
+}
+.checkbox input{
+
+	margin-right: .5em;
+
+}
